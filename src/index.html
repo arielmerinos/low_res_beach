@@ -26,12 +26,44 @@
         src="models/model_low_polygon_fourth.glb" 
         ar ar-modes="webxr scene-viewer quick-look" 
         camera-controls poster="poster.webp" 
+        shadow-intensity="1.26" 
+        exposure="0.5" shadow-softness="0.82" 
+        auto-rotate camera-orbit="50.8deg 72.27deg 8.531m" 
+        field-of-view="21.78deg" style="height: 100%; width: 100%;">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.24176995477613256m 1.0057544896552306m 0.09367157213707317m" data-normal="0.9165854735419898m 0.003587333607778084m -0.39982271162278044m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Surfing table</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.2525580804338255m 2.12921576609086m -1.1356155419066305m" data-normal="0.41191920958001893m 0.8394453522034739m 0.3544771719631013m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Palm #1</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.27071625795829024m 2.2292304315667306m 0.726541381755079m" data-normal="0.20619587943034287m 0.8900692008000819m -0.4065219269523493m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Palm #2</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.14048692696752205m 1.6261939724709673m -1.2866149245274268m" data-normal="0.9770058721250415m -0.16674326668927383m 0.13287666780506271m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trunk #1</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.7574782668337664m 1.3129748272728372m 0.9569413376859348m" data-normal="0.8675696741852752m -0.2363644109827565m 0.4375553972411151m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trunk #2</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="0.44623880573375196m 0.48384767257266503m -0.5646950268217206m" data-normal="0.40096000865167464m 0.9116489975388314m 0.0901508555061635m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Sea</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="0.8815160073043877m 0.31763838909459546m -0.08486267782435097m" data-normal="1m 0m 0m" data-visibility-attribute="visible"></button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+    <!-- <model-viewer 
+        src="models/model_low_polygon_fourth.glb" 
+        ar ar-modes="webxr scene-viewer quick-look" 
+        camera-controls poster="poster.webp" 
         shadow-intensity="1.66" 
         exposure="0.5" 
         shadow-softness="0.25" 
         auto-rotate 
         camera-orbit="-324.1deg 68.64deg 28.55m" 
         field-of-view="21.78deg" style="height: 100%; width: 100%;"> 
-    </model-viewer>
+    </model-viewer> -->
 </body>
 </html>
